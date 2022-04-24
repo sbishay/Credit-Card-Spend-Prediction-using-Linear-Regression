@@ -32,7 +32,8 @@ Predicting the total spend in both the datasets and creating top 10 decile to te
 
 <img width="600" alt="Lin Charts" src="https://user-images.githubusercontent.com/104310260/164983304-74754d80-30d3-4c7c-b4c2-1062685db55e.png">
 
-Following are the driving factors that influence the card spent amount
+Driving factors that influence the card spent amount are
+
 Card
 Card2
 Incinc
