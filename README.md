@@ -11,17 +11,19 @@ Analyzing Credit Card Spend of 5000 customer data
 
 Exploratory data analysis through understanding of data. 
 Looking at the distribution of dependent variable and also segregating categorical with numerical variable. 
-45% data having missing value
+Finding missing value and outliers through descriptive analysis. Variables with maximum missing values are detected 
 
 2.Feature Engineering
 
-Deleting the variables is not ideal, hence Imputing missing value by mean value treatment
-Outliers is capped with 5 and 95 percentile. 
+Omitting the variables which has highest no. of missing values. 
+Imputing missing value with mean value treatment and also outliers is capped with 5 and 95 percentile. 
+Removing features with high multicollinearity through correlation matrix.
 
 3.Feature Selection
 
-Significant categorical variables are selected through chi sq. test and stepwise regression. 
-For numerical variable, log and sqrt transformation is applied to make normally distributed.
+Selecting the categorical features with 95% confidence level i.e. p<.05 for variable reduction.
+Significant categorical variables are selected through Anova test and stepwise regression. 
+Further VIF detects multicollinearity in selected variables. 
 
 4.Model Building
 
